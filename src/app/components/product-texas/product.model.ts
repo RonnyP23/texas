@@ -1,6 +1,0 @@
-export interface Product {
-  create: any;
-  id?: number;
-  name: string;
-  price: any;
-}

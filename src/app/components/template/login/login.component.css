@@ -1,9 +1,0 @@
-.container-main{
-  position: fixed;
-  display: flex;
-  /*flex-direction: row;*/
-  /* flex-wrap:wrap; */
- /* margin-top: 3vh;*/
-  width: 100%;
-  max-height:100%;
-}
