@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+}
+mat-card-title{
+  font-size: 2rem;
+  font-weight: 150;
+
+}
+mat-form-field{
+  margin: 20px 10px;
+}
+
+
+

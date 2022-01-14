@@ -1,0 +1,40 @@
+<mat-card>
+  <mat-card-title>novo produto</mat-card-title>
+  <form class="form">
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome"
+        [(ngModel)]="product.name"
+        name="name"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <!-- two way data biding -->
+
+      <input
+        matInput
+        placeholder="Preço (R$)"
+
+        [(ngModel)]="product.price"
+        name="price"
+      />
+    </mat-form-field>
+  </form>
+  <button mat-button class="btn" (click)="createProduct()">
+    <a mat-list-item>
+      <i class="material-icons">done_outline</i>
+    </a>
+    adicionar
+  </button>
+  <span>
+    <button mat-button class="btn" (click)="cancel()">
+      <a mat-list-item>
+        <i class="material-icons">cancel</i>
+      </a>
+      cancelar
+    </button>
+  </span>
+</mat-card>
+<app-product-read></app-product-read>
+

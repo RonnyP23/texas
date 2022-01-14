@@ -1,0 +1,16 @@
+.btn {
+  text-align: center;
+  padding:5px;
+  width: 100px;
+  margin:5px;
+  background-color:#0D1021;
+  color:#fff;
+  border-radius: 10px;
+}
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+

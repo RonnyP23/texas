@@ -1,0 +1,14 @@
+mat-card-title{
+  font-size: 2rem;
+  font-weight: 150;
+}
+form{
+  margin: 20px 10px;
+}
+
+
+
+button{
+  margin: 15px 10px;
+  font-weight: 300;
+}
